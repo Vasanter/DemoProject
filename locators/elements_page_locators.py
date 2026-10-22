@@ -15,3 +15,13 @@ class TextBoxPageLocators:
     CREATED_EMAIL  =  "css selector", "#output #email"
     CREATED_CURRENT_ADDRESS  =  "css selector", "#output #currentAddress"
     CREATED_PERMANENT_ADDRESS  =  "css selector", "#output #permanentAddress"
+
+
+class CheckBoxPageLocators:
+
+    EXPAND_ALL_BUTTON = "css selector", ".rc-tree-switcher"
+    ITEM_LIST = "css selector", "span[class='rc-tree-checkbox']"
+    CHECKED_ITEMS = "css selector", ".rc-tree-checkbox-checked"
+    TITLE_ITEM = "css selector", "rc-tree-title"
+    OUTPUT_RESULT = "css selector", "span[class='text-success']"
+    # ['desktop', 'notes', 'commands', 'downloads', 'wordFile', 'excelFile']
